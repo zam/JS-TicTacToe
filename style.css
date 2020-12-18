@@ -1,0 +1,15 @@
+table {
+    border: 5px solid black;
+}
+
+tr, td {
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hidebutton {
+    display: none;
+}

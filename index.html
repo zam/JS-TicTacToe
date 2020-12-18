@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic-tac-toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <table>
+            <tr class="row-1">
+                <td class="col-1"></td>
+                <td class="col-2"></td>
+                <td class="col-3"></td>
+            </tr>
+            <tr class="row-2">
+                <td class="col-1"></td>
+                <td class="col-2"></td>
+                <td class="col-3"></td>
+            </tr>
+            <tr class="row-3">
+                <td class="col-1"></td>
+                <td class="col-2"></td>
+                <td class="col-3"></td>
+            </tr>
+        </table>
+        <button type="button" onclick="resetGame()">Reset</button>
+        <button type="button" class="hidebutton next" onclick="nextBoard()">Next Move</button>
+        <button type="button" class="hidebutton previous" onclick="previousBoard()">Previous Move</button>
+        <span class="result"></span>
+        <script src="./tictactoe.js" ></script>
+    </body>
+</html>
